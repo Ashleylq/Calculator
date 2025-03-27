@@ -12,6 +12,10 @@
     height : 75px;
     width : 275px;
     margin : 25px auto;
+    font-family: 'Calculator', sans-serif;
+    font-size : 50px;
+    text-align: right;
+    overflow-wrap: break-word;
 }
 
 .buttons {
@@ -67,7 +71,7 @@
     grid-column: 1/span 2;
 }
 
-#zero {
+.zero {
     grid-column : 2/ span 2
 }
 
